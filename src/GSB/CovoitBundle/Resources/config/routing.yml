@@ -1,0 +1,11 @@
+gsb_covoit_homepage:
+    path:     /
+    defaults: { _controller: GSBCovoitBundle:Covoit:index }
+
+inscription:
+    path:   /inscription
+    defaults: {_controller: GSBCovoitBundle:Login:inscription}
+
+login:
+    path:   /login
+    defaults: {_controller: GSBCovoitBundle:Login:login }
